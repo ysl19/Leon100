@@ -1,0 +1,69 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+/*
+palletes
+
+main background- #66768a 
+secondary background - #dbdfe2
+*/
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  padding: 1% 3%;
+  background: #66768a;
+  font-family: "Oswald", sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  color: white;
+}
+main,
+ul {
+  display: flex;
+}
+main {
+  padding: 2em;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  justify-content: space-around;
+  list-style: none;
+}
+
+main > h1 + p {
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
