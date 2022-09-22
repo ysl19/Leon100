@@ -1,6 +1,18 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color:white;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Clear fix hack */
@@ -28,17 +40,66 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-body {
+
+.nav__header, .nav__ul, .main, .main__ul{
+  display:flex;
 }
+.nav__header{
+  justify-content: baseline;
+}
+
+.nav__logo{
+ width: 45%;
+}
+
+.nav__ul, .main__ul{
+  flex-grow: 1.2;
+  justify-content: space-between;
+}
+
+.nav__li{
+  color:white
+}
+
+.main{
+  height: 50rem;
+  width: 50%;
+}
+
+.main__first{
+  
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-image: url("../css/img/pic001.jpg");
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+.main__section{
+  padding: 5% 0 0 10%;
+}
+
+.main__ul{
+  width:60%;
+  padding: 0;
+  margin: 5% 0 0 0;
+}
+
+input{
+  width:80%;
+}
+
+button{
+  width: 18%;
+}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-}
 
-footer {
-}
 
 /******************************************
 /* ADDITIONAL STYLES
