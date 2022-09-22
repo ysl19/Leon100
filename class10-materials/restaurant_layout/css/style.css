@@ -1,0 +1,45 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* Color Palette
+/*******************************************/
+/*
+    .base: #f1f7f7,
+  button: #ff8800,
+    text: #ffaa4d;
+*/
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

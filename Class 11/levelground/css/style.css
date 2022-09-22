@@ -27,6 +27,7 @@ secondary background - #dbdfe2
 /*******************************************/
 
 body {
+<<<<<<< HEAD
   
   font-family: "Oswald", sans-serif;
 }
@@ -84,6 +85,8 @@ a {
 
 footer {
   background: black;
+=======
+>>>>>>> 1177b94ba981af179f87ab15eb293ee9f04cce87
 }
 
 /******************************************
