@@ -27,8 +27,7 @@ secondary background - #dbdfe2
 /*******************************************/
 
 body {
-  padding: 1% 3%;
-  background: #66768a;
+  
   font-family: "Oswald", sans-serif;
 }
 
@@ -37,25 +36,48 @@ body {
 /*******************************************/
 header {
   color: white;
+  background: #66768a;
 }
+
 main,
-ul {
+ul, section {
   display: flex;
 }
+
 main {
   padding: 2em;
   flex-direction: column;
   align-items: center;
+  color:white;
+  background: #66768a;
 }
 
+section {
+  flex-direction: column;
+  align-items: center;
+  
+}
 ul {
   justify-content: space-around;
   list-style: none;
 }
-
-main > h1 + p {
+main + section + section{
+  display: flex;
+  flex-direction: row;
+  background:  #dbdfe2;
+  clear:both;
+}
+main + section + section section {
+  align-items: center;
+  
+}
+main > h1{
+  font-size: 6rem;
 }
 
+main > h1 + p{
+  width: 60%
+}
 a {
   text-decoration: none;
 }
